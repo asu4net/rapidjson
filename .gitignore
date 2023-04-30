@@ -27,3 +27,10 @@ DartConfiguration.tcl
 
 # Files created by OS
 *.DS_Store
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
