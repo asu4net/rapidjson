@@ -21,7 +21,12 @@ project "rapidjson"
         runtime "Debug"
         symbols "on"
     
-    filter "configurations:Release"
+    filter "configurations:EditorRelease"
         defines "NIT_RELEASE"
         runtime "Release"
         optimize "on"
+        
+    filter "configurations:GameRelease"
+          defines "NIT_RELEASE"
+          runtime "Release"
+          optimize "on"
